@@ -72,17 +72,19 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-
   background-color: rgb(241, 240, 240);
 }
 .section-3-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 35rem;
 }
 .srvc-sec {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 12rem;
+  height: 20rem;
 }
 .srvc-sec-lft {
   font-size: 4rem;
@@ -100,72 +102,116 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 90rem;
+  width: 100rem;
   margin: 0 auto 0 auto;
 }
 .card {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+ 
+  margin: 2rem 1rem 1rem 1rem;
+  box-shadow: 5px 2px 3px rgb(230, 230, 230);
 }
 .card img {
 }
 .card-head {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 30rem;
 }
 .card-para {
   width: 20rem;
+  margin-bottom: 1rem;
 }
 
 .whole-flex {
   background-color: #1b98f5;
+  margin-top: 5rem;
 }
 .whole-flex h1 {
   text-align: center;
   padding-top: 5rem;
+  font-size: 5rem;
+  color: #fff;
 }
 .flexi-section {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
 }
-.fx-card{
-  width: 20rem;
+.fx-card {
+  width: 25rem;
   background-color: white;
   margin-left: 2rem;
   text-align: center;
   border-radius: 1rem;
 }
-.fx-card-1-head{
-
+.fx-card-1-head {
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.fx-card-1-top p{
- font-family: 'Courier New', Courier, monospace;
- color: grey;
+.fx-card-1-top p {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 3rem;
+  color: grey;
 }
-
-.card-item{
-
+.fx-card-2-top {
+  margin-top: 0px;
+  background-color: black;
+  color: #fff;
+  padding: 1rem 0rem 2rem 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.fx-card-2-head {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card-item {
   text-align: left;
 }
-.card-items{
- 
-    background: url(/image/icons8-checkmark-48.png) no-repeat left  ;
-    padding: 20px 5px 20px 60px;
-    list-style: none;
-    
-    margin-top: 1rem;
-    margin-left: 1rem;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-  
-  
-  
+.card-items {
+  background: url(/image/icons8-checkmark-48.png) no-repeat left;
+  padding: 20px 5px 20px 60px;
+  list-style: none;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.fx-card-1-bottom h2 {
+  display: inline;
+  font-size: 2rem;
+}
+.fx-card-1-bottom {
+  margin-top: 3rem;
+}
+.fx-card-1-bottom p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.bt-1 {
+  padding: 1rem;
+  width: 15rem;
+  background-color: #1b98f5;
+  border-radius: 1rem;
+  font-size: 20px;
+  color: #fff;
+  border: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.bt-2 {
+  padding: 1rem;
+  width: 15rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  font-size: 20px;
+  color: black;
+  border: 2px solid #1b98f5;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
