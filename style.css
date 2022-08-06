@@ -58,7 +58,6 @@ body {
 .section-2 {
   display: flex;
   justify-content: space-around;
- 
 }
 .section-2-left {
 }
@@ -67,7 +66,6 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   width: 35rem;
-  
 }
 
 .section-3 {
@@ -79,4 +77,95 @@ body {
 }
 .section-3-left {
   width: 35rem;
+}
+.srvc-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12rem;
+}
+.srvc-sec-lft {
+  font-size: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 40rem;
+}
+.srvc-sec-rgt {
+  width: 30rem;
+  font-size: 20px;
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90rem;
+  margin: 0 auto 0 auto;
+}
+.card {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.card img {
+}
+.card-head {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+}
+.card-para {
+  width: 20rem;
+}
+
+.whole-flex {
+  background-color: #1b98f5;
+}
+.whole-flex h1 {
+  text-align: center;
+  padding-top: 5rem;
+}
+.flexi-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.fx-card{
+  width: 20rem;
+  background-color: white;
+  margin-left: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.fx-card-1-head{
+
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fx-card-1-top p{
+ font-family: 'Courier New', Courier, monospace;
+ color: grey;
+}
+
+.card-item{
+
+  text-align: left;
+}
+.card-items{
+ 
+    background: url(/image/icons8-checkmark-48.png) no-repeat left  ;
+    padding: 20px 5px 20px 60px;
+    list-style: none;
+    
+    margin-top: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  
+  
+  
 }
